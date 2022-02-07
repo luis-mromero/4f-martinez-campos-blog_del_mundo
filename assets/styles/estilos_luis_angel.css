@@ -1,27 +1,48 @@
+/* ESTILOS LUIS ÁNGEL MARTÍNEZ ROMERO */
 
+/* Clases generales */
 
-.cuerpo_blog{
-    background-color: black; 
-    color: #FFFFFF;
-}
+.cuerpo_blog{background-color: black; color: #FFFFFF}  
 
-.articulo{
-    background-color: rgb(44, 43, 43);
-    padding: 1.5rem;
-    border-bottom: 1px solid #FFFFFF ;
-    
-}
+.articulo{background-color: rgb(44, 43, 43);padding: 1.5rem; border-bottom: 1px solid #FFFFFF }
 
-.resaltado{
-    color: yellow 
-}
-
-.titulo_del_blog{
+#titulo_del_blog{
     text-align: center;
-    font-size: 3rem;
-}
+    font-size: 3rem }
+
+/* Terminan clases generales*/
+
+
+
+/* Barra de navegación */
+
+.resaltado{ color: yellow }
+
+nav>ul>li {list-style:none }
+
+nav>ul>li>a {text-decoration: none }
+
+/* Fin de de navegación */
+
+
+
+
+/* Ilustraciones */
 
 .ilustracion{
     border: 4px solid #FFFFFF;
     display: inline-block;
 }
+
+.ilustracion figcaption{ margin-top: 1rem; margin-left: 1rem; font-style:italic}
+
+/* Terminan Ilustraciones */
+
+
+
+/* Footer del blog */
+
+#footer_blog{ margin: 2rem;}
+
+/* Terminan footer */
+
