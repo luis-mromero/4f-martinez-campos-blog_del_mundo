@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="assets/styles/estilos_emilio.css">
 </head>
 
-<body class="cuerpo">
+<body class="cuerpo_del_blog">
     <!--Inicia mi barra de navegación-->
     <nav>
         <!-- 22 nov | @sergiortellez: Perfecta barra de navegación  -->
@@ -29,7 +29,7 @@
     <section>
         <!-- 22 nov | @sergiortellez: Perfecta estructura de blog  -->
         <!--Empieza el título del blog-->
-        <header class="titulo_del_blog">
+        <header id="titulo_del_blog">
             <h1>Combustibles más comunes en automoviles</h1>
         </header>
         <!--Termina el título de blog-->
@@ -69,7 +69,7 @@
                         acerca de algo.</p>
 
                     <!--Inicia ilustración del artículo-->
-                    <figure>
+                    <figure class="ilustracion">
                         <img src="/assets/images/figures/gas vs electrico.jpg" alt="Gas vs Electrico" height="600" width="auto">
                         <figcaption>¿Gasolina o electricidad?</figcaption>
                     </figure>
@@ -122,7 +122,7 @@
                     <!--Termina mi ranking en orden inverso-->
 
                     <!--Inicia ilustración del artículo-->
-                    <figure>
+                    <figure class="ilustracion">
                         <img src="/assets/images/figures/prius.jpg" alt="Toyota Prius" height="600" width="auto">
                         <figcaption>2022 Toyota Prius Nightshade Edition.</figcaption>
                     </figure>
@@ -169,7 +169,7 @@
                     <!--Termina mi lista de sitios oficiales-->
 
                     <!--Inicia ilustración del artículo-->
-                    <figure>
+                    <figure class="ilustracion">
                         <img src="/assets/images/figures/autocosmos.jpg" alt="Autocosmos logo" height="600" width="auto">
                         <figcaption>Logo de Autocosmos.</figcaption>
                     </figure>
@@ -209,13 +209,13 @@
                     <p></p>
 
                     <!--Inicia video del artículo-->
-                    <figure>
+                    <figure class="ilustracion">
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/DSvYtTawDAc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         <figcaption>Carnovo. (1 de agosto de 2019). <I>¿Qué coche me compro? ¿Diésel, gasolina, híbrido, eléctrico, GLP o GNC?</I> [Video]. YouTube.</figcaption>
                     </figure>
                     <!--Termina video del artículo-->
                     
-                    <p>El funcionamiento de cada motor es distinto, pero todos tienen el mismo propósito, llevarnos de punto A a punto B, hay personas que prefieren lo tradicional ya sea gasolina o Diesel, especialmente gasolina, así como hay gente que ha ido modernizándose y adaptándose a lo actual y
+                    <p>El funcionamiento de cada motor es distinto, pero todos tienen el mismo propósito, llevarnos de punto A a punto B, hay personas que prefieren lo tradicional ya sea gasolina o Diesel, especialmente gasolina, así como hay gente que ha ido modernizando y adaptándose a lo actual y
                     ha optado por un automóvil híbrido o eléctrico, en caso de México, más híbridos, esto se debe a que aún no contamos con la estructura suficiente en México para abastecer a una sociedad con autos eléctricos o enchufables, y esto es de lo que vamos a hablar, de los principales combustibles
                     en la industria actualmente, pero que en un futuro no muy lejano podrían cambiar.</p>
 
@@ -263,7 +263,7 @@
                     <p>Para finalizar con los híbridos, tenemos a los Mild Hybrid, también conocidos como híbridos suaves. Cada vez las tecnologías y la electricidad y automatización de sistemas en los automóviles es más demandante y requiere de bastante más energía, normalmente se utilizan 12 voltios para los sistemas eléctricos de un auto, pero por el requerimiento de más energía se han creado sistemas de 48 voltios. Este sistema hace que cuando no lo sea necesario, haga que el motor deje de generar combustión para reducir las emisiones y tratar de tener la mayor autonomía posible, esto se debe a que el motor empieza a almacenar la energía en el momento necesario. El alto voltaje de estos autos permiten sustituir algunas partes como el alternador.</p>
 
                     <h3><strong>Autos eléctricos</strong></h3>
-                    <p>Un coche eléctrico tiene como característica principal que su sistema de propulsión esté formado por uno o más motores eléctricos que se alimentan de la energía almacenada en una batería recargable. Dicha batería se recarga de energía bien enchufando el vehículo a una toma de corriente eléctrica o bien gracias a un sistema de auto regeneración, sobre todo durante las frenadas. Esta modalidad está compuesta por uno o varios motores, a su vez, el motor está compuesto por tres cosas:</p>
+                    <p>Un coche eléctrico tiene como característica principal que su sistema de propulsión está formado por uno o más motores eléctricos que se alimentan de la energía almacenada en una batería recargable. Dicha batería se recarga de energía bien enchufando el vehículo a una toma de corriente eléctrica o bien gracias a un sistema de auto regeneración, sobre todo durante las frenadas. Esta modalidad está compuesta por uno o varios motores, a su vez, el motor está compuesto por tres cosas:</p>
 
                     <p>El cargador, este es encargado de recibir la electricidad para almacenar energía, el inversor que se encarga de transformar la corriente continua a trifásica para que esta llegue a distintos lugares del auto y por último, el controlador que es el encargado de gestionar la corriente eléctrica de acuerdo a las necesidades del auto este componente hace que la gestión sea eficaz y segura. La batería por otra parte son clave para el funcionamiento del auto, son encargadas de almacenar toda la energía recibida del enchufe, un dato curioso es que es el componente más costoso. Y para finalizar tenemos a los transformadores, estos se encargan de transformar la corriente alterna que llega desde la red eléctrica en corriente continua que es la que se almacena en las baterías.</p>
                     
@@ -277,8 +277,8 @@
                     <p>Respondiendo a la pregunta del este subtítulo, nos espera en un futuro relativamente lejano une revolución automotriz y muchos desarrollos y evoluciones respecto a tecnología, cada vez las marcas y las personas nos sorprenden con nuevas invenciones que hacen que nuestra manera de pensar cambie rotundamente, en este caso tenemos el problema de la Tierra, si no cuidamos nuestro hogar este se va a terminar mucho antes de lo que esperábamos, como ya he mencionado, realizando cambios mínimos puede hacer la diferencia comparado a no ser nada, esto es más que una época de cambio, es un cambio de época.</p>
 
                     <!--Inicia ilustración del artículo-->
-                    <figure>
-                        <img src="assets/images/figures/mirai.png" alt="ilustracion 1º artículo" height="600px" width="auto">
+                    <figure class="ilustracion">
+                        <img src="assets/images/figures/mirai.png" alt="2022 Toyota Mirai Limited" height="585px" width="auto">
                         <figcaption>2022 Toyota Mirai Limited, combustión a base de hidrógeno.</figcaption>
                     </figure>
                     <!--Termina ilustración del artículo-->
@@ -303,6 +303,52 @@
                 </footer>
             </article>
             <!--Fin entrada: Investigación-->
+
+            <!--Inicia entrada: ¿Combustión eléctrica?-->
+            <article class="articulo">
+                <header>
+                    <hgroup>
+                        <!--Título del artículo con ícono-->
+                        <h2> <img src="assets/images/icons/motor.png" alt="motor" height="35px" width="auto"> ¿Combustión eléctrica?</h2>
+                        <!--Fecha en la que se escribió el artículo-->
+                        <h4>08/02/22</h4>
+                    </hgroup>    
+                </header>
+                <!--Inicia contenido del artículo-->
+                <div>
+                    
+                    <h3><strong>¿Eso existe?</h3></strong>
+                    <p>Si bien la palabra "combustión" se refiere a la reacción química rápida del oxígeno del aire u oxígeno directo, con los distintos elementos que constituyen el combustible, ya sea carbono o hidrógeno. Todo este proceso realizado dentro un motor de combustión interna junto con diferentes procesos y piezas, entonces, ¿cómo un automóvil que no cuenta con un motor que funcione con gasolina o tan siquiera diesel va a realizar el proceso de combustión? La explicación es tan simple y absurda que tal vez como lector te hayas planteado alguna respuesta similar, o tal vez piensas que es algo sumamente difícil de explicar, pero para esto está la siguiente explicación.</p>
+
+                    <p>Simplemente es una manera de decirle al proceso para que un automóvil se mueva (por lo menos en este blog), esto se debe a que  en un motor eléctrico, prácticamente no podría haber combustión en un motor que ni siquiera cuenta con las partes necesarias para realizar este proceso. Más que nada este término equívoco se utiliza para facilitar el entendimiento de los temas, aunque es importante realizar la aclaración por si alguna persona está confundida en este momento, el término correcto para mencionar a un motor eléctrico sería eso mismo, motor eléctrico, no motor a combustión eléctrica. Sin embargo se puede confundir con el motor eléctrico de alguna parte o alguna otra cosa.</p>
+
+                    <p>Un motor de combustión interna, funciona así: a partir de una mezcla entre aire y combustible, una chispa causa una explosión que acciona un pistón. En el motor eléctrico no se produce ninguna quema ni explosión. Funciona con un conjunto de bobinas y trabaja con inversión de campos magnéticos. Según esta definición, los motores eléctricos no emiten una chispa, por eso mismo no  contaminan al medio ambiente. sin embargo la explotación de los recursos que se utilizan para la creación de las tecnologías eléctricas es un tema bastante polémico, que trataremos más adelante, a fin de cuentas es nuestro hogar de donde se sacan todos los recursos.</p>
+
+                    <!--Inicia ilustración del artículo-->
+                    <figure class="ilustracion">
+                        <img src="assets/images/figures/MOTOR-DE-COMBUSTIÓN.png" alt="Gasolina vs Electricidad" height="600px" width="auto">
+                        <figcaption>Motor de combustión interna vs motor eléctrico</figcaption>
+                    </figure>
+                    <!--Termina ilustración del artículo-->
+
+                </div>
+                <!--Termina contenido del artículo-->
+                
+                <footer>
+                    <!--Datos del autor-->
+                    <div>
+                        <span>Campos Cabañas Emilio</span> <a href="https://instagram.com/emi_molcas?utm_medium=copy_link" target="_blank">@emi_molcas en Instagram</a>
+                    </div>
+                    <!--Fin datos del autor-->
+                    <!--Bibliografía-->
+                    <blockquote>
+                        <p><a href="https://rentingfinders.com/"target=_blank>rentingfinders.com</a></p>
+                        <p><a href="https://iberisasl.com/"target=_blank>iberisals.com</a></p>
+                    </blockquote>
+                    <!--Fin bibliografía-->
+                </footer>
+            </article>
+            <!--Fin entrada: ¿Combustión eléctrica?-->
         </main>
         <!--Termina contenido principal-->
 
@@ -313,7 +359,7 @@
         <!--Termina barra lateral-->
 
         <!--Empieza el footer-->
-        <footer>
+        <footer id="footer_blog">
             <div><span>Martínez Romero Luis Angel</span></div> <div><span>Blog creado en <i> Preparatoria Panamericana. </i> </span><span>Las opiniones contenidas en este proyecto pertenecen a los autores de cada entrada.</span></div> <div><span>Campos Cabañas Emilio</span></div>
         </footer>
         <!--Termina el footer-->
