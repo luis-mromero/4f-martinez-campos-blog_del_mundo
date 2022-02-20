@@ -1,7 +1,31 @@
-.cuerpo{background-color: black; color: #FFFFFF;}
+/*Clases generales*/
 
-.articulo{background-color: rgb(44, 43, 43);}
+.cuerpo_del_blog{background-color: black; color: #FFFFFF;}
+
+.articulo{background-color: rgb(44, 43, 43); padding: 1.5rem; border-bottom: 1px solid #FFFFFF;}
+
+#titulo_del_blog{text-align: center; font-size: 3rem;}
+
+/*Terminan clases generales*/
+
+/*Barra de navegación*/
 
 .resaltado{color: yellow;}
 
-.titulo_del_blog{text-align: center; font-size: 3rem;}
+nav>ul>li{list-style: none;}
+nav>ul>li>a{text-decoration: none;}
+
+/*Fin de barra de navegación*/
+
+/*Footer del blog*/
+
+#footer_blog{margin: 2rem;}
+
+/*Fin del footer del blog*/
+
+/*Ilustraciones*/
+
+.ilustracion{border: 4px solid #FFFFFF; display: inline-block}
+.ilustracion figcaption{margin-top: 1rem; margin-left: 1rem; font-style: italic;}
+
+/*Fin ilustraciones*/

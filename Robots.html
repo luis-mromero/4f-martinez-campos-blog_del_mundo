@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="assets/styles/estilos_emilio.css">
 </head>
 
-<body class="cuerpo">
+<body class="cuerpo_del_blog">
     <!--Inicia mi barra de navegación-->
     <nav>
         <!-- 22 nov | @sergiortellez: Perfecta barra de navegación  -->
@@ -29,7 +29,7 @@
     <section>
         <!-- 22 nov | @sergiortellez: Perfecta estructura de blog  -->
         <!--Empieza el título del blog-->
-        <header class="titulo_del_blog">
+        <header id="titulo_del_blog">
             <h1>Robots</h1>
         </header>
         <!--Termina el título de blog-->
@@ -69,7 +69,7 @@
                         no nos van a sustituir. Vamos a hablar de la inteligencia artificial, androides y la mecatrónica, y como estos nos pueden ayudar en la cotidianidad.</p>
               
                     <!--Inicia ilustración del artículo-->
-                    <figure>
+                    <figure class="ilustracion">
                         <img src="/assets/images/figures/xiaoyi.jpeg" alt="Xiaoyi" height="600" width="auto">
                         <figcaption>Robot médico Xiaoyi.</figcaption>
                     </figure>               
@@ -122,7 +122,7 @@
                     <!--Termina mi ranking en orden inverso-->
 
                     <!--Inicia ilustración del artículo-->
-                    <figure>
+                    <figure class="ilustracion">
                         <img src="/assets/images/figures/thr3.jpg" alt="Toyota T-HR3" height="600" width="auto">
                         <figcaption>Toyota T-HR3, el robot que replica tus movimientos.</figcaption>
                     </figure>
@@ -169,7 +169,7 @@
                     <!--Termina mi lista de sitios oficiales-->
 
                     <!--Inicia ilustración del artículo-->
-                    <figure>
+                    <figure class="ilustracion">
                         <img src="assets/images/figures/bisite-c_0.png" alt="BISITE logo" height="600" width="1200">
                         <figcaption>Logo de BISITE</figcaption>
                     </figure>
@@ -197,7 +197,7 @@
                 <header>
                     <hgroup>
                         <!--Título del artículo-->
-                        <h2><img src="/assets/images/icons/youtube.png" alt="Youtube logo" height="35" width="auto"> Aplicaciones de los robots</h2>
+                        <h2><img src="/assets/images/icons/youtube.png" alt="YouTube logo" height="35" width="auto"> Aplicaciones de los robots</h2>
                         <!--Fecha en la que se escribió el artículo-->
                         <h4>27/11/21</h4>
                     </hgroup>
@@ -209,7 +209,7 @@
                     <p></p>
 
                     <!--Inicia video del artículo-->
-                    <figure>
+                    <figure class="ilustracion">
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/QlHnO1tRuYA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         <figcaption>Educar Portal. (1 de julio de 2019). <i>Microaprendizaje: ¿Dónde se usan los robots?</i> [Video]. YouTube.</figcaption>
                     </figure>
@@ -273,7 +273,7 @@
                     <p>La tercera ley afirma lo siguiente que "un robot debe proteger su propia existencia en la medida en que esta protección no entre en conflicto con la primera o con la segunda ley". Un poco de lo que se comentó en la anterior ley, un robot tiene que intentar seguir con su existencia siempre y cuando, el robot no permita que un ser humano sea herido, o viceversa, que el robot intente hacerle daño al humano. Todo esto sumado a que el hombre no puede programar al robot para herir a otras personas, se puede decir que la tercer ley engloba a las dos anteriores.</p>
 
                     <!--Inicia ilustración del artículo-->
-                    <figure>
+                    <figure class="ilustracion">
                         <img src="/assets/images/figures/robots-industriales-1200x675.jpg" alt="Robots en la industira automotriz" height="600px" width="auto">
                         <figcaption>Robots dentro de la industria automotriz</figcaption>
                     </figure>
@@ -297,6 +297,42 @@
                 </footer>
             </article>
             <!--Fin entrada: Investigación-->
+
+            <!--Inicia entrada: ¿Quieres estudiar algo relacionado con los robots?-->
+            <article class="articulo">
+                <header>
+                    <hgroup>
+                        <!--Título del artículo con ícono-->
+                        <h2> <img src="assets/images/icons/youtube.png" alt="YouTube logo" height="35px" width="auto"> ¿Quieres estudiar algo relacionado con robots?</h2>
+                        <!--Fecha en la que se escribió el artículo-->
+                        <h4>04/02/22</h4>
+                    </hgroup>    
+                </header>
+                <!--Inicia contenido del artículo-->
+                <div>
+                    
+                    <h3></h3>
+                    <p></p>
+
+                    <!--Inicia ilustración del artículo-->
+                    <figure class="ilustracion">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/CzLgLysmlvY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <figcaption>Emilio Campos Cabañas. (17 de febrero de 2022). <i>¿Quieres estudiar algo relacionado con robots?</i> [Video]. YouTube.</figcaption>
+                    </figure>
+                    <!--Termina ilustración del artículo-->
+
+                </div>
+                <!--Termina contenido del artículo-->
+                
+                <footer>
+                    <!--Datos del autor-->
+                    <div>
+                        <span>Campos Cabañas Emilio</span> <a href="https://instagram.com/emi_molcas?utm_medium=copy_link" target="_blank">@emi_molcas en Instagram</a>
+                    </div>
+                    <!--Fin datos del autor-->
+                </footer>
+            </article>
+            <!--Fin entrada: ¿Quieres estudiar algo relacionado con los robots?-->
         </main>
         <!--Termina contenido principal-->
 
@@ -307,7 +343,7 @@
         <!--Termina barra lateral-->
 
         <!--Empieza el footer-->
-        <footer>
+        <footer id="footer_blog">
             <div><span>Martínez Romero Luis Angel</span></div> <div><span>Blog creado en <i> Preparatoria Panamericana. </i> </span><span>Las opiniones contenidas en este proyecto pertenecen a los autores de cada entrada.</span></div> <div><span>Campos Cabañas Emilio</span></div>
         </footer>
         <!--Termina el footer-->
