@@ -2,23 +2,21 @@
 
 /*Comienza el grid*/
 section{
-    display:grid;
-    grid-template-columns:repeat(12, 1fr);
-    grid-auto-rows: auto;
-    grid: 3rem;}
-
+    display:grid;/*grid display*/
+    grid-template-columns:repeat(12, 1fr);/*columnas*/
+    grid-auto-rows: auto;/*lineas*/
+    grid: 3rem;}/**/
 section>header{
     grid-column:span 12;}
-
 main{
     grid-column:span 8;}
-aside {grid-column:span 4;}
-section>footer{grid-column:span 12}
-
+aside {
+    grid-column:span 4;}
+section>footer{
+    grid-column:span 12}
 /*Termina el grid*/
 
 /* Clases generales */
-
 .cuerpo_blog{
     background-color: black; color: #FFFFFF}  
 .articulo{
@@ -26,20 +24,29 @@ section>footer{grid-column:span 12}
 #titulo_del_blog{
     text-align: center;
     font-size: 3rem }
-
 /* Terminan clases generales*/
 
 
 
 /* Barra de navegación */
-
 .resaltado{
-    color: yellow }
+    color: yellow/*color de texto*/ }
 nav>ul>li {
-    list-style:none }
+    list-style:none/*estilo de lista o quitar viñetado*/}
 nav>ul>li>a {
-    text-decoration: none }
-
+    text-decoration: none;/*decoración del texto*/
+    color: #FFFFFF;}/*color de texto*/
+nav{
+    font-size: 1.3rem;/*tamaño de letra*/}
+nav>ul>li>a:hover{
+    text-decoration: underline;/*decoración del texto*/
+    color: greenyellow;} /*color del texto*/
+nav>ul{
+    display: flex;/*desplegar flex*/
+    align-items: center;/*alinear al centro*/
+    justify-content: space-around;/*espacio equitativo entre ellos*/
+    border-bottom: 1px solid #FFFFFF;/*borde inferior*/
+    padding-bottom: 0.5rem;}/*espacio entre borde <ul>*/
 /* Fin de de navegación */
 
 
@@ -55,6 +62,9 @@ nav>ul>li>a {
 
 /* Terminan Ilustraciones */
 
+/*Flexbox*/
+
+/*Termina Flexbox*/
 
 
 /* Footer del blog */
