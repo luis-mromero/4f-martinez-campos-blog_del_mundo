@@ -49,9 +49,16 @@ nav>ul{
     padding-bottom: 0.5rem;}/*espacio entre borde <ul>*/
 /* Fin de de navegación */
 
+/*Header*/
 
 
-
+article>header>hgroup{
+    display: flex;/*desplegar flex*/
+    align-items: center;/*alinear al centro*/
+    justify-content: space-between;}
+article>header>hgroup>h2{
+    
+}
 /* Ilustraciones */
 
 .ilustracion{
