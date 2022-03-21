@@ -50,15 +50,18 @@ nav>ul{
 /* Fin de de navegación */
 
 /*Header*/
-
-
 article>header>hgroup{
     display: flex;/*desplegar flex*/
     align-items: center;/*alinear al centro*/
     justify-content: space-between;}
 article>header>hgroup>h2{
-    
-}
+    display: flex;/*desplegar flex*/
+    align-items: center;/*alinear al centro*/}
+article>header>hgroup>h2>img{
+    margin-right: 1rem;}
+/*Header*/
+
+
 /* Ilustraciones */
 
 .ilustracion{
@@ -77,6 +80,14 @@ article>header>hgroup>h2{
 /* Footer del blog */
 
 #footer_blog{
-    margin: 2rem;}
+    margin: 2rem;
+    padding:4rem 0 4rem 0;
+    size: 1.3rem;
+    /*felxbox*/
+    display: flex;/*desplegar flex*/
+    align-items: center;/*alinear al centro*/
+    justify-content: space-between;}
+#footer_blog div:nth-child(2){
+    font-size:0.9rem }
 /* Terminan footer */
 
