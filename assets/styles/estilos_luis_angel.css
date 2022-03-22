@@ -26,8 +26,6 @@ section>footer{
     font-size: 3rem }
 /* Terminan clases generales*/
 
-
-
 /* Barra de navegación */
 .resaltado{
     color: yellow/*color de texto*/ }
@@ -61,7 +59,6 @@ article>header>hgroup>h2>img{
     margin-right: 1rem;}
 /*Header*/
 
-
 /* Ilustraciones */
 
 .ilustracion{
@@ -72,13 +69,27 @@ article>header>hgroup>h2>img{
 
 /* Terminan Ilustraciones */
 
-/*Flexbox*/
-
-/*Termina Flexbox*/
-
+/*Aside-microblogging*/
+aside>h2{
+    size: 1.3rem;
+    text-align: center;}
+aside>div:nth-of-type(even){
+    background-color: rgb(44, 43, 43);}
+aside>div>img{
+    background-color: #FFFFFF;/*fondo*/
+    padding: 0.5rem;/**/
+    border-radius: 50%;/*borde a círculo*/
+    margin:0.5rem 0.5rem 0.5rem 0.5rem;}
+aside>div{
+    border-bottom: 1px dashed #FFFFFF;
+    margin: 0 2rem 0 2rem;
+    padding: 5px 0 5px 0;
+    display: flex;/*desplegar flex*/
+    align-items: center;/*alinear al centro*/
+    justify-content: space-around;/*espacio equitativo entre ellos*/}
+/*Aside*/
 
 /* Footer del blog */
-
 #footer_blog{
     margin: 2rem;
     padding:4rem 0 4rem 0;
@@ -90,4 +101,4 @@ article>header>hgroup>h2>img{
 #footer_blog div:nth-child(2){
     font-size:0.9rem }
 /* Terminan footer */
-
+ 
