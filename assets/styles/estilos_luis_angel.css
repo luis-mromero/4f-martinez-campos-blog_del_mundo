@@ -8,9 +8,8 @@ section{
     grid: 3rem;}/**/
 section>header{
     grid-column:span 12;}
-main>{
+main{
     grid-column: span 12;
-    width:100%;
 }
 @media (min-width: 1024.1px) {
     main{
@@ -38,7 +37,7 @@ section>footer{
     background-color: rgb(44, 43, 43);padding: 1.5rem; border-bottom: 1px solid #FFFFFF }
 #titulo_del_blog{
     text-align: center;
-    font-size: 3rem;
+    font-size:clamp(2rem,calc(1vh+2rem),7rem);
     padding-top: 6rem ;
 
 }
@@ -120,6 +119,7 @@ aside div {
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    margin: 3rem;
     gap: 1rem;
     padding: 0.6rem;
     border-bottom: 1px dashed #fff;
@@ -129,7 +129,8 @@ aside div {
 flex-direction: column;}}
 
 /* Footer del blog */
-@media (min-width: 1024.1px){#footer_blog{
+@media (min-width: 1024.1px){
+    #footer_blog{
     margin: 2rem;
     padding:4rem 0 4rem 0;
     size: 1.3rem;
