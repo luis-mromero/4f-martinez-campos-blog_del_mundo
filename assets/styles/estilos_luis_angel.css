@@ -129,14 +129,27 @@ aside div {
 flex-direction: column;}}
 
 /* Footer del blog */
-#footer_blog{
+@media (min-width: 1024.1px){#footer_blog{
     margin: 2rem;
     padding:4rem 0 4rem 0;
     size: 1.3rem;
     /*felxbox*/
     display: flex;/*desplegar flex*/
     align-items: center;/*alinear al centro*/
-    justify-content: space-between;}
+    justify-content: space-between;}}
+
+#footer_blog {
+    grid-column: span 12;
+    text-align: center;
+    padding:4rem 0 4rem 0;
+    size: 1.3rem;
+}
+
+#footer_blog div {
+    padding:1rem 0 1rem 0;
+}
+
+
 #footer_blog div:nth-child(2){
     font-size:0.9rem }
 /* Terminan footer */
