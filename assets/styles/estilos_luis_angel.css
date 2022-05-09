@@ -8,22 +8,40 @@ section{
     grid: 3rem;}/**/
 section>header{
     grid-column:span 12;}
-main{
-    grid-column:span 8;}
-aside {
-    grid-column:span 4;}
+main>{
+    grid-column: span 12;
+    width:100%;
+}
+@media (min-width: 1024.1px) {
+    main{
+    width:100%;
+    grid-column:span 8;
+    gap: 1rem;
+    padding: 0.6rem;
+}
+}
+aside{
+    grid-column:span 12;}
+@media (min-width: 1024.1px) {
+    aside{
+    grid-column:span 4;}}
 section>footer{
     grid-column:span 12}
 /*Termina el grid*/
 
 /* Clases generales */
 .cuerpo_blog{
-    background-color: black; color: #FFFFFF}  
+    background-color: black; color: #FFFFFF;
+    margin: 0;
+}  
 .articulo{
     background-color: rgb(44, 43, 43);padding: 1.5rem; border-bottom: 1px solid #FFFFFF }
 #titulo_del_blog{
     text-align: center;
-    font-size: 3rem }
+    font-size: 3rem;
+    padding-top: 6rem ;
+
+}
 /* Terminan clases generales*/
 
 /* Barra de navegación */
@@ -35,7 +53,11 @@ nav>ul>li>a {
     text-decoration: none;/*decoración del texto*/
     color: #FFFFFF;}/*color de texto*/
 nav{
-    font-size: 1.3rem;/*tamaño de letra*/}
+    font-size: 1.3rem;/*tamaño de letra*/
+    position: fixed;
+    width:100%;
+    background-color: black;
+}
 nav>ul>li>a:hover{
     text-decoration: underline;/*decoración del texto*/
     color: greenyellow;} /*color del texto*/
@@ -45,6 +67,20 @@ nav>ul{
     justify-content: space-around;/*espacio equitativo entre ellos*/
     border-bottom: 1px solid #FFFFFF;/*borde inferior*/
     padding-bottom: 0.5rem;}/*espacio entre borde <ul>*/
+nav>ul{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: auto;
+    gap: 1rem;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 1.5rem;}
+
+@media (min-width: 1100px) {
+nav>ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid red;}}
 /* Fin de de navegación */
 
 /*Header*/
@@ -80,14 +116,17 @@ aside>div>img{
     padding: 0.5rem;/**/
     border-radius: 50%;/*borde a círculo*/
     margin:0.5rem 0.5rem 0.5rem 0.5rem;}
-aside>div{
-    border-bottom: 1px dashed #FFFFFF;
-    margin: 0 2rem 0 2rem;
-    padding: 5px 0 5px 0;
-    display: flex;/*desplegar flex*/
-    align-items: center;/*alinear al centro*/
-    justify-content: space-around;/*espacio equitativo entre ellos*/}
-/*Aside*/
+aside div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+    padding: 0.6rem;
+    border-bottom: 1px dashed #fff;
+    }
+@media (min-width: 1024.1px) and (max-width: 1324.1px) {
+aside div {
+flex-direction: column;}}
 
 /* Footer del blog */
 #footer_blog{
